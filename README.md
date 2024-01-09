@@ -24,14 +24,12 @@ npx cap sync
 ### initialize(...)
 
 ```typescript
-initialize(options: CapacitorFacebookAdInitializationOptions) => any
+initialize(options: CapacitorFacebookAdInitializationOptions) => Promise<void>
 ```
 
 | Param         | Type                                                                                                          |
 | ------------- | ------------------------------------------------------------------------------------------------------------- |
 | **`options`** | <code><a href="#capacitorfacebookadinitializationoptions">CapacitorFacebookAdInitializationOptions</a></code> |
-
-**Returns:** <code>any</code>
 
 --------------------
 
@@ -41,10 +39,10 @@ initialize(options: CapacitorFacebookAdInitializationOptions) => any
 
 #### CapacitorFacebookAdInitializationOptions
 
-| Prop                               | Type                 | Description                                            | Default            |
-| ---------------------------------- | -------------------- | ------------------------------------------------------ | ------------------ |
-| **`requestTrackingAuthorization`** | <code>boolean</code> | Use or not requestTrackingAuthorization in iOS(&gt;14) |                    |
-| **`testingDevices`**               | <code>{}</code>      |                                                        |                    |
-| **`initializeForTesting`**         | <code>boolean</code> |                                                        | <code>false</code> |
+| Prop                               | Type                  | Description                                            | Default            |
+| ---------------------------------- | --------------------- | ------------------------------------------------------ | ------------------ |
+| **`requestTrackingAuthorization`** | <code>boolean</code>  | Use or not requestTrackingAuthorization in iOS(&gt;14) |                    |
+| **`testingDevices`**               | <code>string[]</code> |                                                        |                    |
+| **`initializeForTesting`**         | <code>boolean</code>  |                                                        | <code>false</code> |
 
 </docgen-api>
