@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-facebook-ad",
-  "version": "0.0.2",
+  "name": "@pikopika/capacitor-facebook-ad",
+  "version": "0.0.4",
   "description": "Capacitor plugin for facecbook ads",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CapacitorFacebookAd.podspec"
   ],
-  "author": "Preetam Jakhmola",
+  "author": "Piko Pika",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/preetamjakhmola/capacitor-facebook-ad-plugin.git"
+    "url": "https://github.com/cheongbong/capacitor-facebook-ad-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/preetamjakhmola/capacitor-facebook-ad-plugin/issues"
+    "url": "https://github.com/cheongbong/capacitor-facebook-ad-plugin/issues"
   },
   "keywords": [
     "capacitor",
